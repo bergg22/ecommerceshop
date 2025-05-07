@@ -34,14 +34,14 @@
                         <line x1="3" y1="6" x2="21" y2="6"></line>
                         <path d="M16 10a4 4 0 0 1-8 0"></path>
                     </svg>
-                    <a href="<?php echo isset($_SESSION['usuario_id']) ? '/ecommerce/index.php' : '/ecommerce/login.php'; ?>" class="text-xl font-bold text-gray-800">Sistema de E-commerce</a>
+                    <a href="<?php echo isset($_SESSION['usuario_id']) ? '/ecommerceshop/index.php' : '/ecommerceshop/login.php'; ?>" class="text-xl font-bold text-gray-800">Sistema de E-commerce</a>
                 </div>
                 
                 <?php if (isset($_SESSION['usuario_id'])): ?>
                 <nav class="hidden md:flex space-x-6">
-                    <a href="/ecommerce/index.php" class="nav-link py-4 px-2 text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200">Dashboard</a>
-                    <a href="/ecommerce/produtos/listar.php" class="nav-link py-4 px-2 text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200">Produtos</a>
-                    <a href="/ecommerce/pedidos/listar.php" class="nav-link py-4 px-2 text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200">Pedidos</a>
+                    <a href="/ecommerceshop/index.php" class="nav-link py-4 px-2 text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200">Dashboard</a>
+                    <a href="/ecommerceshop/produtos/listar.php" class="nav-link py-4 px-2 text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200">Produtos</a>
+                    <a href="/ecommerceshop/pedidos/listar.php" class="nav-link py-4 px-2 text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200">Pedidos</a>
                     <div class="dropdown relative">
                         <button class="nav-link py-4 px-2 text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200 flex items-center">
                             Relatórios
@@ -50,8 +50,8 @@
                             </svg>
                         </button>
                         <div class="dropdown-menu absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10">
-                            <a href="/ecommerce/relatorios/mais_vendidos.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-500 hover:text-white transition-colors duration-200">Produtos Mais Vendidos</a>
-                            <a href="/ecommerce/exportacao/exportar.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-500 hover:text-white transition-colors duration-200">Exportar Pedidos</a>
+                            <a href="/ecommerceshop/relatorios/mais_vendidos.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-500 hover:text-white transition-colors duration-200">Produtos Mais Vendidos</a>
+                            <a href="/ecommerceshop/exportacao/exportar.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-500 hover:text-white transition-colors duration-200">Exportar Pedidos</a>
                         </div>
                     </div>
                 </nav>
@@ -60,7 +60,7 @@
                     <div class="text-sm text-gray-700">
                         Olá, <span class="font-medium"><?php echo htmlspecialchars($_SESSION['usuario_nome'] ?? 'Usuário'); ?></span>
                     </div>
-                    <a href="/ecommerce/logout.php" class="bg-red-500 hover:bg-red-600 text-white text-sm font-medium py-2 px-4 rounded-md transition-colors duration-300">
+                    <a href="/ecommerceshop/logout.php" class="bg-red-500 hover:bg-red-600 text-white text-sm font-medium py-2 px-4 rounded-md transition-colors duration-300">
                         Sair
                     </a>
                 </div>

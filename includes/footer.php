@@ -57,12 +57,12 @@
                         </svg>
                     </button>
                 </div>
-                <a href="/ecommerce/index.php" class="py-3 px-4 border-b">Dashboard</a>
-                <a href="/ecommerce/produtos/listar.php" class="py-3 px-4 border-b">Produtos</a>
-                <a href="/ecommerce/pedidos/listar.php" class="py-3 px-4 border-b">Pedidos</a>
-                <a href="/ecommerce/relatorios/mais_vendidos.php" class="py-3 px-4 border-b">Produtos Mais Vendidos</a>
-                <a href="/ecommerce/exportacao/exportar.php" class="py-3 px-4 border-b">Exportar Pedidos</a>
-                <a href="/ecommerce/logout.php" class="mt-auto py-3 px-4 bg-red-500 text-white text-center rounded-md">Sair</a>
+                <a href="/ecommerceshop/index.php" class="py-3 px-4 border-b">Dashboard</a>
+                <a href="/ecommerceshop/produtos/listar.php" class="py-3 px-4 border-b">Produtos</a>
+                <a href="/ecommerceshop/pedidos/listar.php" class="py-3 px-4 border-b">Pedidos</a>
+                <a href="/ecommerceshop/relatorios/mais_vendidos.php" class="py-3 px-4 border-b">Produtos Mais Vendidos</a>
+                <a href="/ecommerceshop/exportacao/exportar.php" class="py-3 px-4 border-b">Exportar Pedidos</a>
+                <a href="/ecommerceshop/logout.php" class="mt-auto py-3 px-4 bg-red-500 text-white text-center rounded-md">Sair</a>
             `;
             
             document.body.appendChild(mobileMenu);

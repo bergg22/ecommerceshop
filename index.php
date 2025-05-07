@@ -21,7 +21,7 @@ if (!isset($_SESSION['usuario_id'])) {
             </div>
             <h2 class="text-xl font-semibold mb-2">Produtos</h2>
             <p class="text-gray-600 mb-4">Gerenciar catálogo de produtos</p>
-            <a href="produtos/listar.php" class="block text-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
+            <a href="/ecommerceshop/produtos/listar.php" class="block text-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
                 Acessar
             </a>
         </div>
@@ -35,7 +35,7 @@ if (!isset($_SESSION['usuario_id'])) {
             </div>
             <h2 class="text-xl font-semibold mb-2">Pedidos</h2>
             <p class="text-gray-600 mb-4">Gerenciar pedidos de clientes</p>
-            <a href="pedidos/listar.php" class="block text-center bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
+            <a href="/ecommerceshop/pedidos/listar.php" class="block text-center bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
                 Acessar
             </a>
         </div>
@@ -48,7 +48,7 @@ if (!isset($_SESSION['usuario_id'])) {
             </div>
             <h2 class="text-xl font-semibold mb-2">Relatórios</h2>
             <p class="text-gray-600 mb-4">Visualizar relatórios de vendas</p>
-            <a href="relatorios/mais_vendidos.php" class="block text-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
+            <a href="/ecommerceshop/relatorios/mais_vendidos.php" class="block text-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
                 Acessar
             </a>
         </div>
@@ -63,7 +63,7 @@ if (!isset($_SESSION['usuario_id'])) {
             </div>
             <h2 class="text-xl font-semibold mb-2">Exportação</h2>
             <p class="text-gray-600 mb-4">Exportar pedidos para TXT</p>
-            <a href="exportacao/exportar.php" class="block text-center bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
+            <a href="/ecommerceshop/exportacao/exportar.php" class="block text-center bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300">
                 Acessar
             </a>
         </div>
